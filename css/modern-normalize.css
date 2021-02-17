@@ -15,7 +15,7 @@ Use a better box model (opinionated).
   box-sizing: border-box;
 }
 
-/*мои изменения*/
+/*МОИ ПРАВКИ*/
 /*remove lines in links and marks in list*/
 * {
   list-style: none;
@@ -28,7 +28,16 @@ img {
   height: auto;
 }
 
-/*изменения normalize*/
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/*NORMALIZE*/
 /**
 Use a more readable tab size (opinionated).
 */

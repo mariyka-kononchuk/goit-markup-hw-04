@@ -256,8 +256,6 @@ body {
 
 /*заголовки*/
 .features-list h3 {
-  padding: 0;
-  margin: 0;
   margin-bottom: 10px;
 
   font-weight: 700;
@@ -268,9 +266,6 @@ body {
 
 /*текст*/
 .features-list p {
-  padding: 0;
-  margin: 0;
-
   color: var(--text-color);
   font-weight: 400;
   font-size: 14px;
@@ -320,9 +315,6 @@ body {
 
 /*текст*/
 .team-list p {
-  margin: 0;
-  padding: 0;
-
   color: var(--text-color);
   font-weight: 400;
   font-size: 16px;
@@ -359,8 +351,6 @@ body {
 }
 
 .footer p {
-  margin: 0;
-  padding: 0;
   margin-bottom: 9px;
 }
 
