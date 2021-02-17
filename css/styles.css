@@ -158,11 +158,6 @@ body {
 
 /*---ГЕРОЙ---*/
 .hero {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
   max-width: 1600px;
   min-height: 600px;
   margin-left: auto;
@@ -179,7 +174,7 @@ body {
   margin-bottom: 30px;
   margin-right: auto;
   margin-left: auto;
-  max-width: 696px;
+  max-width: 600px;
 
   color: var(--white-color);
   font-weight: 900;
@@ -206,14 +201,23 @@ body {
   text-align: center;
 }
 
+.hero-content {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
 /*СЕКЦИИ*/
 .section {
+  padding-top: 94px;
   padding-bottom: 94px;
   letter-spacing: 0.03em;
 }
 
-/*фон секции*/
-.section.background {
+.section.section-features {
+  padding-bottom: 0;
+}
+/*фон для секции команды*/
+.section.section-team {
   background-color: var(--background-button-portfolio);
 }
 
@@ -302,10 +306,6 @@ body {
   margin-left: calc(-1 * var(--card-set-gap));
 
   line-height: 1.19;
-}
-
-.team-container {
-  padding-top: 94px;
 }
 
 /*заголовки*/
@@ -422,7 +422,6 @@ body {
   align-items: center;
   justify-content: center;
   margin: 0;
-  margin-top: 94px;
   margin-bottom: 34px;
   padding: 0;
   padding-bottom: 16px;
