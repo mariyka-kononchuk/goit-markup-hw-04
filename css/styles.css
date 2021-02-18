@@ -16,6 +16,7 @@
   --header-border-color: #ececec;
   --background-footer-color: #2f303a;
   --footer-text-color: rgba(255, 255, 255, 0.6);
+  --footer-icon-background: rgba(255, 255, 255, 0.1);
   --background-hero-color: #c4c4c4;
   --background-hero-gradient: rgba(47, 48, 58, 0.4);
   --background-button-portfolio: #f5f4fa;
@@ -93,7 +94,8 @@ body {
 
 /*лого в футере*/
 .logo-header.logo-footer {
-  /*display: inline-block;*/
+  width: fit-content;
+  display: block;
   margin-bottom: 20px;
 
   color: var(--white-color);
@@ -451,6 +453,7 @@ body {
 
 .footer p {
   display: inline-block;
+  width: fit-content;
   margin-bottom: 9px;
 }
 
@@ -463,6 +466,60 @@ body {
   color: var(--footer-text-color);
 }
 
+/*социальные сети*/
+
+.footer-social {
+  margin-left: 70px;
+  padding-top: 72px;
+  padding-bottom: 100px;
+}
+
+.social-links-title {
+  margin-bottom: 20px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+/*список ссылок на социальные сети*/
+.footer-social-list {
+  min-width: 206px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+
+  color: var(--white-color);
+}
+
+/*иконки*/
+.footer-icon {
+  padding: 12px;
+  width: 44px;
+  height: 44px;
+  fill: currentColor;
+}
+
+.footer-social-link {
+  background-color: var(--footer-icon-background);
+  border-radius: 50%;
+  display: block;
+  padding: 0;
+  margin: 0;
+  color: var(--white-color);
+
+  line-height: 0;
+}
+
+.footer-icon-link:hover,
+.footer-icon-link:focus {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+  border-radius: 50%;
+}
 /*изменение цвета элемента контактов при наведении*/
 .hover a:hover,
 .hover a:focus {
@@ -471,6 +528,11 @@ body {
 
 /*позиционирование контента футера*/
 .flex-footer {
+  display: flex;
+}
+
+/*позиционирование контента адреса*/
+.footer-address {
   display: flex;
   flex-direction: column;
   justify-content: center;
