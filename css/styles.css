@@ -164,8 +164,18 @@ body {
 }
 
 .nav-icon {
-  border: 1px solid var(--rectangle-line-clients);
+  display: flex;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
+
+/*иконки*/
+.contacts-icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
 /*---ГЕРОЙ---*/
 .hero {
   max-width: 1600px;
@@ -514,8 +524,8 @@ body {
   line-height: 0;
 }
 
-.footer-icon-link:hover,
-.footer-icon-link:focus {
+.footer-social-link:hover,
+.footer-social-link:focus {
   background-color: var(--accent-color);
   color: var(--white-color);
   border-radius: 50%;
@@ -571,6 +581,8 @@ body {
 .button-pfl:focus {
   color: var(--white-color);
   background-color: var(--accent-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 /*список радио-кнопок*/
