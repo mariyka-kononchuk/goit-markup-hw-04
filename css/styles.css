@@ -374,7 +374,10 @@ body {
 
 .team-icon-hover {
   display: block;
+  padding: 0;
+  margin: 0;
   color: var(--icon-color);
+  line-height: 0;
 }
 
 .team-icon-hover:hover,
@@ -384,7 +387,7 @@ body {
   border-radius: 50%;
 }
 
-/*обертка подписей под фото*/
+/*обертка подписей и иконок соцсетей под фото*/
 .team-content {
   padding-top: var(--card-set-gap);
   padding-bottom: var(--card-set-gap);
