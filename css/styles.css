@@ -92,6 +92,13 @@ body {
   color: var(--accent-color);
 }
 
+/*тень при фокусе*/
+.main-nav a:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--accent-color);
+  border-radius: 4px;
+}
+
 /*лого в футере*/
 .logo-header.logo-footer {
   width: fit-content;
@@ -99,6 +106,13 @@ body {
   margin-bottom: 20px;
 
   color: var(--white-color);
+}
+
+/*тень при фокусе лого в футере*/
+.logo-header.logo-footer:focus {
+  outline: none;
+  box-shadow: 0 0 0 1px var(--accent-color);
+  border-radius: 4px;
 }
 
 /*---НАВИГАЦИЯ САЙТА---*/
@@ -128,6 +142,13 @@ body {
 .site-nav a:hover,
 .site-nav a:focus {
   color: var(--accent-color);
+}
+
+/*тень при фокусе*/
+.site-nav a:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--accent-color);
+  border-radius: 4px;
 }
 
 /*подсветка активной страницы*/
@@ -161,6 +182,13 @@ body {
 .contacts-nav a:hover,
 .contacts-nav a:focus {
   color: var(--accent-color);
+}
+
+/*тень при фокусе*/
+.contacts-nav a:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--accent-color);
+  border-radius: 4px;
 }
 
 .nav-icon {
@@ -228,6 +256,13 @@ body {
   line-height: 1.9;
   align-items: center;
   text-align: center;
+}
+
+/*тень при фокусе*/
+.button-hero:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--white-color);
+  border-radius: 4px;
 }
 
 .hero-content {
@@ -399,6 +434,13 @@ body {
   border-radius: 50%;
 }
 
+/*тень при фокусе*/
+.team-icon-hover:focus {
+  outline: none;
+  box-shadow: 0 0 0 1px var(--background-button-portfolio);
+  border-radius: 50%;
+}
+
 /*обертка подписей и иконок соцсетей под фото*/
 .team-content {
   padding-top: var(--card-set-gap);
@@ -445,6 +487,13 @@ body {
   fill: currentColor;
 }
 
+/*тень при фокусе*/
+.clients-link:focus {
+  outline: none;
+  box-shadow: 0 0 0 1px var(--accent-color);
+  border-radius: 4px;
+}
+
 /*---ФУТЕР---*/
 
 .footer {
@@ -476,6 +525,13 @@ body {
   color: var(--footer-text-color);
 }
 
+/*тень при фокусе*/
+.contacts:focus {
+  outline: none;
+  box-shadow: 0 0 0 1px var(--accent-color);
+  border-radius: 4px;
+}
+
 /*социальные сети*/
 
 .footer-social {
@@ -484,7 +540,7 @@ body {
   padding-bottom: 100px;
 }
 
-.social-links-title {
+.footer-social-title {
   margin-bottom: 20px;
 
   font-weight: 700;
@@ -530,7 +586,15 @@ body {
   color: var(--white-color);
   border-radius: 50%;
 }
-/*изменение цвета элемента контактов при наведении*/
+
+/*тень при фокусе*/
+.footer-social-link:focus {
+  outline: none;
+  box-shadow: 0 0 0 1px var(--background-footer-color);
+  border-radius: 50%;
+}
+
+/*изменение цвета элементов контактов при наведении*/
 .hover a:hover,
 .hover a:focus {
   color: var(--accent-color);
@@ -583,6 +647,7 @@ body {
   background-color: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
+  outline: none;
 }
 
 /*список радио-кнопок*/
